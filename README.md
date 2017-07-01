@@ -27,18 +27,18 @@ Nesse exemplo já definimos algumas dependências.
 
 Para executar o projeto digite no prompt:
 
-  npm start
+    npm start
   
 ## Dependências
 
 
 Para instalar as dependências digite no prompt:
 
-  npm install
+    npm install
 
 
 ## Compilar
 
 Para compilar para windows 64 digite no prompt:
 
-  npm run win64
+    npm run win64

@@ -1,7 +1,7 @@
 {
-  "name": "psa-print",
+  "name": "MyApp",
   "version": "1.0.0",
-  "description": "Aplicação electron de exemplo",
+  "description": "AplicaÃ§Ã£o electron de exemplo",
   "main": "app/main.js",
   "scripts": {
     "start": "electron .",

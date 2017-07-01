@@ -1,0 +1,37 @@
+{
+  "name": "psa-print",
+  "version": "1.0.0",
+  "description": "Aplicação electron de exemplo",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "win32": "electron-packager . myApp --platform=win32 --arch=ia32",
+    "win64": "electron-packager . myApp --platform=win32 --arch=x64",
+    "linux32": "electron-packager . myApp --platform=linux --arch=ia32",
+    "linux64": "electron-packager . myApp --platform=linux --arch=x64",
+    "osx": "electron-packager . myApp --platform=darwin --arch=x64",
+    "build": "electron-packager . --all",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/marcos-queiroz/electron_exemplo.git",
+  "keywords": [
+    "Aplicativo",
+    "Exemplo"
+  ],
+  "author": "Marcos Queiroz",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-builder": "^19.8.0",
+    "electron-packager": "^8.7.2"
+  },
+  "build": {
+    "productName": "Electron Exemplo",
+    "copyright": "BeeCoffee Solutions",
+    "appId": "br.com.beecoffee.electron-exemplo",
+    "mac": {
+      "category": "Office"
+    }
+  }
+}
